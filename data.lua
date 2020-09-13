@@ -16,7 +16,7 @@ local derive_name = HighlyDerivative.derive_name
 
 -- "Constants"
 
-local MOD_NAME = "Pallets"
+local MOD_NAME = "Pallets-updated"
 local PREFIX = MOD_NAME .. "-"
 local MOD_DIRECTORY = "__" .. MOD_NAME .. "__/"
 local GRAPHICS_DIRECTORY = MOD_DIRECTORY .. "graphics/"
