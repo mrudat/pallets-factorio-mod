@@ -1,13 +1,17 @@
 {
-  "name": "pallets",
-  "version": "0.1.1",
-  "factorio_version": "0.16",
+  "name": "Pallets",
+  "version": "0.2.0",
+  "factorio_version": "1.0",
   "title": "Pallets",
-  "author": "twanvl",
-  "contact": "Twan van Laarhove <mail@twanvl.nl>",
-  "homepage": "https://github.com/twanvl/pallets-factorio-mod",
+  "author": "twanvl and mrudat",
+  "contact": "",
+  "homepage": "https://github.com/mrudat/pallets-factorio-mod",
   "description": "Adds recipes for loading items onto pallets",
   "dependencies": [
-    "base >= 0.16.00"
+    "base >= 1.0",
+    "HighlyDerivative >= 0.0.1",
+    "OR-Nodes >= 0.1.0",
+    "rusty-locale >= 0.0.1",
+    "!intermediate-bulk-containers <= 0.0.4"
   ]
 }

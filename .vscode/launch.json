@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "factoriomod",
+            "request": "launch",
+            "name": "Factorio Mod Debug",
+            "factorioPath": "C:\\Program Files\\Factorio\\bin\\x64\\factorio.exe",
+            "preLaunchTask": "make",
+            "hookData": true,
+            "adjustMods": {
+                "Pallets": true,
+                "HighlyDerivative": true,
+                "rusty-locale": true,
+                "lab-world-preset": true,
+                "OR-Nodes": true,
+            }
+        }
+    ]
+}

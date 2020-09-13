@@ -1,0 +1,24 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2020-09-13
+
+  Changes:
+    - Updated to 1.0
+    - Reformatted changelog
+    - Palleting research now depends on plastic bar and steel plate
+    - Palleting recipes now unlock when the item is able to be created, rather than all at once.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2018-01-08
+
+  Features:
+    - Make "Limit pallets to a single stack" configurable
+    - Change default to 50 items per pallet
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2018-01-07
+
+  Major Features:
+    - Initial release
