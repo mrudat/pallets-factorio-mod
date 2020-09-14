@@ -168,6 +168,7 @@ local function make_pallet(new_things, item, item_name, _)
   if item.allow_on_pallet == false then return end
 
   local stack_size = item.stack_size or 1
+  if type(stack_size) ~= 'number' then return end
   if stack_size == 1 then return end
   if stack_size > 0xffff then return end
 
